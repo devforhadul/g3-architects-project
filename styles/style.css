@@ -118,6 +118,15 @@ header{
     margin-right: 15px;
   }
 
+  .team-img{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-content{
+    text-align: center;
+  }
+  .team-sec{
+    flex-direction: column-reverse;
+  }
 
 
 }
